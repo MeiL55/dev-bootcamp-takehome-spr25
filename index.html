@@ -1,8 +1,79 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-<!-- Your HTML Here -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to my world</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="menu">
+      <a href="cv.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="pf">
+    <img src="images/pfphome.jpg" alt="Profile Picture" class="pfp-img">
+    <div class="scrollable">
+      Hello, welcome to my world! My name is <strong>Mei Li, a 2nd year CS major</strong> hoping to gain skills and experiences in MERN stack development.
+      I am a passionate undergrad researcher dedicated to leveraging technology for <strong>social good</strong> by addressing critical challenges in today’s digital world. 
+      My ongoing research work focuses on studying online misinformation and digital harassment, investigating how algorithms and platforms can amplify harmful content, 
+      as well as strategies to mitigate these issues, aiming to create safer and more trustworthy online spaces. I also hope to build <strong> interactive surveys, games,
+      and platforms using WebDev</strong> to inform the general public of digital risks in the age of AI.
+      I came from <strong>Tianjin, China</strong>, where there's a lot of great food.
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <div class="image-content">
+        <img src="images/pfp.jpeg" alt="LinkedIn" class="card-img">
+      </div>
+      <div class="card-content">
+        <h2 class="name">My LinkedIn</h2>
+        <p class="description">Check my LinkedIn profile.</p>
+        <button class="button" onclick="window.open('https://www.linkedin.com/in/mei-li-ba800b290/', '_blank')">View More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="image-content">
+        <img src="images/gitpfp.jpg" alt="GitHub" class="card-img">
+      </div>
+      <div class="card-content">
+        <h2 class="name">My GitHub</h2>
+        <p class="description">Do you want to see my GitHub repos?</p>
+        <button class="button" onclick="window.open('https://github.com/MeiL55', '_blank')">View More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="image-content">
+        <img src="images/kitty1.jpg" alt="Mimi" class="card-img">
+      </div>
+      <div class="card-content">
+        <h2 class="name">Mimi</h2>
+        <p class="description">My beloved cat, the perfect creation.</p>
+        <button class="button" onclick="window.location.href='cat.html';">View More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="image-content">
+        <img src="images/foodpfp.jpg" alt="Food" class="card-img">
+      </div>
+      <div class="card-content">
+        <h2 class="name">FOOD</h2>
+        <p class="description">Gallery of my cookings & food.</p>
+        <button class="button" onclick="window.location.href='food.html';">View More</button>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
